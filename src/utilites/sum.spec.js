@@ -19,7 +19,7 @@ test("sum should handle negative numbers", () => {
   // Arrange
   const a = -10
   const b = -32
-  const expected = 42
+  const expected = -42
 
   // Act
   const result = sum(a, b)
